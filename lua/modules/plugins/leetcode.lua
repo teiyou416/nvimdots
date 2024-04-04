@@ -14,7 +14,7 @@ return {
 		},
 		opts = {
 			cn = { -- leetcode.cn
-				enabled = false, ---@type boolean
+				enabled = true, ---@type boolean
 				translator = true, ---@type boolean
 				translate_problems = true, ---@type boolean
 			},
