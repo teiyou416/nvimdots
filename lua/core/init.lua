@@ -25,7 +25,6 @@ local disable_distribution_plugins = function()
 	-- Disable menu loading
 	vim.g.did_install_default_menus = 1
 	vim.g.did_install_syntax_menu = 1
-
 	-- Comment this if you define your own filetypes in `after/ftplugin`
 	-- vim.g.did_load_filetypes = 1
 

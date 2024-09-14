@@ -14,7 +14,7 @@ return function()
 			group = vim.api.nvim_create_augroup("LualineColorScheme", { clear = true }),
 			pattern = "*",
 			callback = function()
-				has_catppuccin = vim.g.colors_name:find("catppuccin") ~= nil
+				has_catppuccin = vim.g.colors_name:find("fluoromachine") ~= nil
 				require("lualine").setup({ options = { theme = custom_theme() } })
 			end,
 		})
